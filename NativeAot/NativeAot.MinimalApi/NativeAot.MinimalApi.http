@@ -1,0 +1,11 @@
+@NativeAot.MinimalApi_HostAddress = http://localhost:5239
+
+GET {{NativeAot.MinimalApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{NativeAot.MinimalApi_HostAddress}}/todos/1
+Accept: application/json
+
+###

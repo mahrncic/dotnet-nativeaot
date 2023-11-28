@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeAot.Console", "NativeAot.Console\NativeAot.Console.csproj", "{FA6F9EB7-EE12-4261-B5E1-3F0A48484FAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeAot.MinimalApi", "NativeAot.MinimalApi\NativeAot.MinimalApi.csproj", "{B9A4828A-F03D-447B-B9CC-6F86067CF302}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FA6F9EB7-EE12-4261-B5E1-3F0A48484FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6F9EB7-EE12-4261-B5E1-3F0A48484FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA6F9EB7-EE12-4261-B5E1-3F0A48484FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A4828A-F03D-447B-B9CC-6F86067CF302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A4828A-F03D-447B-B9CC-6F86067CF302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A4828A-F03D-447B-B9CC-6F86067CF302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A4828A-F03D-447B-B9CC-6F86067CF302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

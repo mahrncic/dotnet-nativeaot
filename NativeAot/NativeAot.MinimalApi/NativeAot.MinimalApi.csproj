@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -6,7 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
     <PublishAot>true</PublishAot>
-	<!--<SelfContained>true</SelfContained>
+	<!--<OptimizationPreference>Size</OptimizationPreference>-->
+	<!--<OptimizationPreference>Speed</OptimizationPreference>-->
+	  <!--<SelfContained>true</SelfContained>
 	<PublishSingleFile>true</PublishSingleFile>-->
   </PropertyGroup>
 

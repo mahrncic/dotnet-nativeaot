@@ -10,7 +10,7 @@ stopWatch.Stop();
 
 Console.ReadKey();
 
-//TestMethod();
+TestMethod();
 
 static double CalculatePi(int numberOfSamples)
 {
@@ -31,13 +31,14 @@ static double CalculatePi(int numberOfSamples)
     return (double)insideCircle / numberOfSamples * 4;
 }
 
-//[RequiresDynamicCode("This is AOT incompatible")]
-//static void TestMethod()
-//{
-//    Console.WriteLine("Hi there...");
-//}
+[RequiresDynamicCode("This is AOT incompatible")]
+static void TestMethod()
+{
+    Console.WriteLine("Hi there...");
+}
 
-//static void UseReflectionMethod() {
+//static void UseReflectionMethod()
+//{
 //    Type t = typeof(int);
 //    while (true)
 //    {

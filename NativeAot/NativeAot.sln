@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeAot.Console", "Native
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeAot.MinimalApi", "NativeAot.MinimalApi\NativeAot.MinimalApi.csproj", "{B9A4828A-F03D-447B-B9CC-6F86067CF302}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeAot.Lambda", "NativeAot.Lambda\src\NativeAot.Lambda\NativeAot.Lambda.csproj", "{086D356F-6EFF-4D18-9A0A-501FF8BC39FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classic.Lambda", "Classic.Lambda\Classic.Lambda.csproj", "{DC850347-8464-4A82-8DF1-E41F1A56C615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B9A4828A-F03D-447B-B9CC-6F86067CF302}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9A4828A-F03D-447B-B9CC-6F86067CF302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9A4828A-F03D-447B-B9CC-6F86067CF302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086D356F-6EFF-4D18-9A0A-501FF8BC39FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086D356F-6EFF-4D18-9A0A-501FF8BC39FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086D356F-6EFF-4D18-9A0A-501FF8BC39FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086D356F-6EFF-4D18-9A0A-501FF8BC39FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC850347-8464-4A82-8DF1-E41F1A56C615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC850347-8464-4A82-8DF1-E41F1A56C615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC850347-8464-4A82-8DF1-E41F1A56C615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC850347-8464-4A82-8DF1-E41F1A56C615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,9 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <InvariantGlobalization>true</InvariantGlobalization>
-	<!--<PublishAot>true</PublishAot>-->
-	<SelfContained>true</SelfContained>
-	<PublishSingleFile>true</PublishSingleFile>
+	<PublishAot>true</PublishAot>
+	<!--<SelfContained>true</SelfContained>
+	<PublishSingleFile>true</PublishSingleFile>-->
   </PropertyGroup>
 
 </Project>

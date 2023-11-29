@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 
 var num = 100_000_000;
 
@@ -8,6 +9,8 @@ Console.WriteLine($"Calculated result: {result} in {stopWatch.ElapsedMillisecond
 stopWatch.Stop();
 
 Console.ReadKey();
+
+//TestMethod();
 
 static double CalculatePi(int numberOfSamples)
 {
@@ -27,3 +30,20 @@ static double CalculatePi(int numberOfSamples)
 
     return (double)insideCircle / numberOfSamples * 4;
 }
+
+//[RequiresDynamicCode("This is AOT incompatible")]
+//static void TestMethod()
+//{
+//    Console.WriteLine("Hi there...");
+//}
+
+//static void UseReflectionMethod() {
+//    Type t = typeof(int);
+//    while (true)
+//    {
+//        t = typeof(GenericType<>).MakeGenericType(t);
+//        Console.WriteLine(Activator.CreateInstance(t));
+//    }
+//}
+
+struct GenericType<T> { }
